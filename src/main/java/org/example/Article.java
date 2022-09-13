@@ -50,8 +50,11 @@ public class Article {
     @Override
     public String toString() {
         return "Article{" +
-                "content_html='" + content_html + '\'' +
-                ", title='" + title + '\'' +
+                "title='" + title + '\'' +
+                ", content_html='" + content_html + '\'' +
+                ", authors='" + authors + '\'' +
+                ", date_published='" + date_published + '\'' +
+                ", date_modified='" + date_modified + '\'' +
                 '}';
     }
 }
